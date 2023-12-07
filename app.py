@@ -19,7 +19,7 @@ with st.sidebar:
                            'Diabetes Prediction',
                            'Breast Cancer Prediction',
                            'Parkinsons Prediction'],
-                          icons=['heart','activity','person','sad'],
+                          icons=['heart','activity','person','person'],
                           default_index=0)
     
 # Heart Disease Prediction Page
@@ -258,7 +258,7 @@ if (selected == 'Breast Cancer Prediction'):
 if (selected == "Parkinsons Prediction"):
     
     # page title
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Parkinson's Disease Prediction")
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
